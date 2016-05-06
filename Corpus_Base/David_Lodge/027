@@ -1,0 +1,307 @@
+
+Definitely worth buying if you have read and liked Lodge's earlier work.
+Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/02/nav2/dp/btn-yes-tiny.gif' " +
+                 "id='" + uId + "_yes'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/02/nav2/dp/btn-no-tiny.gif' " +
+                 "id='" + uId + "_no'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame');
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    if ( ''.length > 0 ) {
+        showLoadingMessageForYesNo(uId);
+    }
+
+    return false;
+}
+
+  function showLoadingMessageForYesNo(uid) {
+      var noBtn = document.getElementById(uid+'_no');
+      var yesBtn = document.getElementById(uid+'_yes');
+      var msgLayer = document.getElementById("thanks" + uId);
+
+      if( noBtn != null && yesBtn != null && msgLayer != null) {
+          noBtn.style.display = 'none';
+          yesBtn.style.display = 'none';
+          msgLayer.innerHTML = "";
+      }
+  }
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognised to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R2SBW1SYTRY1HKHelpfulReviews3';
+var vyUrl = 'http://www.amazon.co.uk/gp/vote/ref=cm_r8n_yesno_submit/202-8613536-1743821?ie=UTF8&2115%7CR2SBW1SYTRY1HK.contentAssoc.2=1&2115%7CR2SBW1SYTRY1HK.contentAssoc.2.id=1808334&2115%7CR2SBW1SYTRY1HK.contentAssoc.2.type=ProductSet&type=if&uid=2115R2SBW1SYTRY1HKHelpfulReviews3&uri=%2Fgp%2Fproduct%2F0436205270&2115%7CR2SBW1SYTRY1HK.contentAssoc.1=1&2115%7CR2SBW1SYTRY1HK.contentAssoc.1.type=AmazonCustomer&qv=1&contentId=2115%7CR2SBW1SYTRY1HK&label=Helpful&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&2115%7CR2SBW1SYTRY1HK.contentAssoc.1.id=A3D9RHCM02K9F8&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.co.uk/gp/vote/ref=cm_r8n_yesno_submit/202-8613536-1743821?ie=UTF8&2115%7CR2SBW1SYTRY1HK.contentAssoc.2=1&2115%7CR2SBW1SYTRY1HK.contentAssoc.2.id=1808334&2115%7CR2SBW1SYTRY1HK.contentAssoc.2.type=ProductSet&type=if&uid=2115R2SBW1SYTRY1HKHelpfulReviews3&uri=%2Fgp%2Fproduct%2F0436205270&2115%7CR2SBW1SYTRY1HK.contentAssoc.1=1&2115%7CR2SBW1SYTRY1HK.contentAssoc.1.type=AmazonCustomer&qv=1&contentId=2115%7CR2SBW1SYTRY1HK&label=Helpful&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&2115%7CR2SBW1SYTRY1HK.contentAssoc.1.id=A3D9RHCM02K9F8&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+Nevertheless, for those who are interested in Henry James (and there now seems to be a lot of us for some reason), "Author, Author" is an engaging and often entertaining read, if one which doesn't satisfy in quite the same way as Toibin's "The Master" or James' own work.
+Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoCommunityResponse(uId,result,value) {
+    var msgLayer = getElement("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+      msgLayer.innerHTML = "Thanks for the valuable feedback you provided to other Amazon.co.uk readers and reviewers. Your vote will be counted and will appear on the product page within 24 hours";
+    } else {
+      showVoteErrorResponse(msgLayer,result,value);
+    }
+  }
+
+//-->
+
+
+<!--
+  function getElement(id, d) {
+    if (!d) d = document;
+    if (d.getElementById) {
+        return d.getElementById(id);
+    }
+    if (d.layers && d.layers[id]) {
+      return d.layers[id];
+    }
+    if (d.all && d.all[id]) {
+        return d.all[id];
+    }
+  }
+//-->
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/02/nav2/dp/btn-yes-tiny.gif' " +
+                 "id='" + uId + "_yes'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/02/nav2/dp/btn-no-tiny.gif' " +
+                 "id='" + uId + "_no'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame');
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    if ( ''.length > 0 ) {
+        showLoadingMessageForYesNo(uId);
+    }
+
+    return false;
+}
+
+  function showLoadingMessageForYesNo(uid) {
+      var noBtn = document.getElementById(uid+'_no');
+      var yesBtn = document.getElementById(uid+'_yes');
+      var msgLayer = document.getElementById("thanks" + uId);
+
+      if( noBtn != null && yesBtn != null && msgLayer != null) {
+          noBtn.style.display = 'none';
+          yesBtn.style.display = 'none';
+          msgLayer.innerHTML = "";
+      }
+  }
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognised to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R24E1BDXWNW9HOHelpfulReviews1';
+var vyUrl = 'http://www.amazon.co.uk/gp/vote/ref=cm_r8n_yesno_submit/202-8613536-1743821?ie=UTF8&type=if&uid=2115R24E1BDXWNW9HOHelpfulReviews1&uri=%2Fgp%2Fproduct%2F0436205270&qv=1&contentId=2115%7CR24E1BDXWNW9HO&label=Helpful&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.co.uk/gp/vote/ref=cm_r8n_yesno_submit/202-8613536-1743821?ie=UTF8&type=if&uid=2115R24E1BDXWNW9HOHelpfulReviews1&uri=%2Fgp%2Fproduct%2F0436205270&qv=1&contentId=2115%7CR24E1BDXWNW9HO&label=Helpful&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+By writing the story as "fiction", Lodge uses his great skill of capturing his characters essence without historical records clouding what is a man of great contrasts and depth. Some James purists may find this style offensive but that is not the intention of the author - he provides a more human insight to James than may otherwise have been achieved due to the subject's deeply personal nature and a lack of personal records.
+Toibin captures the the interior world of James as well as the atmosphere of Victorian England, while Lodge deals with the outward events, the facts of James' life more comprehensively but with less insight. Of course, we can never know if either writer's rendering is accurate - and, as always, reality is probably only tangentially caught by either of them, but this is not a weakness in a work of fiction.
+11 of 14 people found the following review helpful:
+The disappointing aspect of Lodge's novel is that for much of the book it reads more as a biography than a novel, with occasional dramatisations of key events, much like one of those documentaries where the narrator is occasionally replaced by actors to illutstrate the point that has just been made. Yet in the midst of this recounting of events, there often appears incongruous reminders that there is an authorial voice. To his credit, Lodge does not mimic James' prose style, although he does occasionally suggest that the authorial voice might be a contemporary (ie 19th century) one rather than a modern one with references to "word-of-mouth" or a play being a "flop" as if these terms were recent and unfamiliar inventions.
+Ultimately, Lodge's book disappoints - we don't really understand James more from this book than we would from a biography (which, as noted above, this book is to some extent), and Lodge's writing lacks the poetry and insight of Toibin's book.
+Henry James was an incredibly skilled and accomplished author who was not greatly appreciated in his own time yet arguably was the father of the modern novel. Lodge deals sympathetically with James's perceived failure of his work, his intense craving for reward both adulatory and financial that always seemed within reach, be it in periodicals, books or the stage and that yet was always just out of reach or dashed by events outside his control. He also deals deftly with the issue of James' sexuality through his relationships with contemporaries, friends and past experiences - in particular his inability to reciprocate emotions and feelings to others, especially those closest to him.
+4 of 4 people found the following review helpful:

@@ -1,0 +1,153 @@
+
+The story unfolds by means of the transcripts of Messenger's stream-of-consciousness on-the- fly musings into a tape recorder. (In perfect Lodgeian fashion, Messenger self-consciously edits the transcripts.) Messenger fancies himself a modern, but is confounded by some of modernity's trappings.  In  alternate chapters, the diary entries of Helen Reed, a novelist of some acclaim and considerable self-awareness, are used to let us in on her thoughts and feelings.
+Helen Reed's diary entries are not sufficiently believable- for they are often wooden, much too full of tedious description of the obvious - and usually lacking in any trace of the register of a diary. She doesn't seem to be writing for herself, but for Lodge's presumed audience.  This is a real problem in this novel.
+23 of 24 people found the following review helpful:
+The story entertains by means of plotting and timing. As usual from David Lodge there is wit and parody, self-consciousness without narcissism, humor and foolishness,  desire and the reasonable wish to connect  - occasionally running amok. In addition there is Lodge's basic decency toward all. I had hoped for more, though,  from such a capable mind - and wonderful writer.
+ Comment | Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoCommunityResponse(uId,result,value) {
+    var msgLayer = getElement("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+      msgLayer.innerHTML = "Thanks for the valuable feedback you provided to other Amazon.com readers and reviewers. Your vote will be counted and will appear on the product page within 24 hours.";
+    } else {
+      showVoteErrorResponse(msgLayer,result,value);
+    }
+  }
+
+//-->
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://g-ec2.images-amazon.com/images/G/01/nav2/dp/btn-yes-tiny.gif' " +
+                 "id='" + uId + "_yes'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://g-ec2.images-amazon.com/images/G/01/nav2/dp/btn-no-tiny.gif' " +
+                 "id='" + uId + "_no'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame_'+uId);
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    if ( ''.length > 0 ) {
+        showLoadingMessageForYesNo(uId);
+    }
+
+    return false;
+}
+
+  function showLoadingMessageForYesNo(uid) {
+      var noBtn = document.getElementById(uid+'_no');
+      var yesBtn = document.getElementById(uid+'_yes');
+      var msgLayer = document.getElementById("thanks" + uid);
+
+      if( noBtn != null && yesBtn != null && msgLayer != null) {
+          noBtn.style.display = 'none';
+          yesBtn.style.display = 'none';
+          msgLayer.innerHTML = "";
+      }
+  }
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognized to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R2JOM67MFPH5KKHelpfulReviews1';
+var vyUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/002-0670711-6295253?ie=UTF8&2115%7CR2JOM67MFPH5KK.contentAssoc.2=1&type=if&uid=2115R2JOM67MFPH5KKHelpfulReviews1&uri=%2Fgp%2Fproduct%2F0142000868&2115%7CR2JOM67MFPH5KK.contentAssoc.1.id=A82OURDM3C77O&2115%7CR2JOM67MFPH5KK.contentAssoc.1.type=AmazonCustomer&qv=1&contentId=2115%7CR2JOM67MFPH5KK&label=Helpful&2115%7CR2JOM67MFPH5KK.contentAssoc.1=1&2115%7CR2JOM67MFPH5KK.contentAssoc.2.type=ProductSet&qk=%2AVersion%2A&2115%7CR2JOM67MFPH5KK.contentAssoc.2.id=1257909&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/002-0670711-6295253?ie=UTF8&2115%7CR2JOM67MFPH5KK.contentAssoc.2=1&type=if&uid=2115R2JOM67MFPH5KKHelpfulReviews1&uri=%2Fgp%2Fproduct%2F0142000868&2115%7CR2JOM67MFPH5KK.contentAssoc.1.id=A82OURDM3C77O&2115%7CR2JOM67MFPH5KK.contentAssoc.1.type=AmazonCustomer&qv=1&contentId=2115%7CR2JOM67MFPH5KK&label=Helpful&2115%7CR2JOM67MFPH5KK.contentAssoc.1=1&2115%7CR2JOM67MFPH5KK.contentAssoc.2.type=ProductSet&qk=%2AVersion%2A&2115%7CR2JOM67MFPH5KK.contentAssoc.2.id=1257909&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+So what's the problem? Messenger is a familiar man: we've watched him in action in other novels of Lodge's. Unfortunately  in this one he  possesses much less of the the tenderness, the heartrending confusion,  and (sometimes comical) sexual frustration and/or energy - and vulnerability - that made so many of Lodge's previous protagonists  so irresistibly appealing. In addition, Messenger/Lodge's self-referencing begins to seem precious. Characters from past novels (including Robyn Penrose from "Nice Work") make cameo appearances that seem almost token.
+"Thinks" is both an academic novel and a comedy of manners - containing elements of all of the above. Within a plot both complicated and much too simple the fictitious University of Gloucester provides the setting for the events.  A bright,  sexually and intellectually restless - and highly verbal - married but chronically adulterous scientist,  Ralph Messenger (a dead ringer for Lodge himself, down to each  facial feature) meets a younger female writer-in-residence at the school.  She is a grieving widow, feeling out of place, away from her home in London, and out of sorts. They close in on one another and pull away - throughout the novel. It's a troubling (and troubled) dance.

@@ -1,0 +1,106 @@
+
+The native settings and attire added greatly to the production.
+The DVD would have been greatly enhanced if post production interviews could have included Henry Cele.  He was truly the star of this series, and that's saying a great deal given the quality of all of the other performances.
+Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");	
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = getElement("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://g-ec2.images-amazon.com/images/G/15/nav2/dp/btn-yes-tiny._V54226586_.gif' " +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://g-ec2.images-amazon.com/images/G/15/nav2/dp/btn-no-tiny._V54226587_.gif' " +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = getElement('YesNoVotingFrame');
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    return false;
+  }
+
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = getElement("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+      msgLayer.innerHTML = "Thank you for your feedback.";
+
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115|R2J9J0A47X8IAQHelpfulReviews5';
+var vyUrl = 'http://www.amazon.ca/gp/vote/ref=cm_r8n_yesno_submit/702-0362534-1862435?ie=UTF8&type=if&2115%7CR2J9J0A47X8IAQ.contentAssoc.2=1&uid=2115%7CR2J9J0A47X8IAQHelpfulReviews5&uri=%2Fgp%2Fproduct%2FB00006JDQO&2115%7CR2J9J0A47X8IAQ.contentAssoc.2.id=B00006JDQO&2115%7CR2J9J0A47X8IAQ.contentAssoc.2.type=ProductSet&2115%7CR2J9J0A47X8IAQ.contentAssoc.1=1&qv=1&contentId=2115%7CR2J9J0A47X8IAQ&label=Helpful&2115%7CR2J9J0A47X8IAQ.contentAssoc.1.type=AmazonCustomer&qk=%2AVersion%2A&2115%7CR2J9J0A47X8IAQ.contentAssoc.1.id=A3R41VKS3ECFAJ&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.ca/gp/vote/ref=cm_r8n_yesno_submit/702-0362534-1862435?ie=UTF8&type=if&2115%7CR2J9J0A47X8IAQ.contentAssoc.2=1&uid=2115%7CR2J9J0A47X8IAQHelpfulReviews5&uri=%2Fgp%2Fproduct%2FB00006JDQO&2115%7CR2J9J0A47X8IAQ.contentAssoc.2.id=B00006JDQO&2115%7CR2J9J0A47X8IAQ.contentAssoc.2.type=ProductSet&2115%7CR2J9J0A47X8IAQ.contentAssoc.1=1&qv=1&contentId=2115%7CR2J9J0A47X8IAQ&label=Helpful&2115%7CR2J9J0A47X8IAQ.contentAssoc.1.type=AmazonCustomer&qk=%2AVersion%2A&2115%7CR2J9J0A47X8IAQ.contentAssoc.1.id=A3R41VKS3ECFAJ&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+Filmed entirely on location in South Africa, Shaka Zulu stars Christopher Lee (The Lord Of The Rings, Star Wars Episode II), Edward Fox (The Dresser, Gandhi) and Henry Cele as Shaka.
+He was an illegitimate prince who reclaimed his birthright with brilliance and brutality. He created a vast new nation from warring tribes and forged an army that defied the most powerful empire on earth. He was Shaka Zulu.
+The characters and performances were all top notch and the relationship between Edward Fox (as Farewell) and Henry Cele (as Shaka) was portrayed beautifully and powerfully. Drama at its very best.
+This production is without doubt as good as anything I've ever seen on television or in the movies.
+Brought to life in an epic, 10 part production, the story of the legendary, 19th-century African king became one of the most compelling and controversial miniseries in television history. From his boyhood in exile to the bloody struggles that solidified his rule and his proud defiance of British colonists, Shaka Zulu is the unforgettable tale of a man who stood at the heart of a battle between two worlds.
+3 of 3 people found the following review helpful:
+The Complete Acclaimed Miniseries Available On DVD For The First Time!

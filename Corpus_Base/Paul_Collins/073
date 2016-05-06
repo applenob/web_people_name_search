@@ -1,0 +1,244 @@
+
+Destined to be a comfort to parents of autistic children, this most recent Paul Collins book is a worthwhile and exceptionally enjoyable read with or without such a personal stake. Even more than Sixpence House, this book perfects the genre of personal history and intense research into the arcane that Collins is creating for himself. Give him 200 pages of your time.
+Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/15/nav2/dp/btn-yes-tiny.gif' " +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/15/nav2/dp/btn-no-tiny.gif' " +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame');
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    return false;
+}
+
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognized to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R3HEHBQTFRRM6RHelpfulReviews3';
+var vyUrl = 'http://www.amazon.ca/gp/vote/ref=cm_r8n_yesno_submit/702-3388546-3128011?ie=UTF8&2115%7CR3HEHBQTFRRM6R.contentAssoc.1.id=AUA64NQ3X56OJ&2115%7CR3HEHBQTFRRM6R.contentAssoc.2.type=ProductSet&type=if&uid=2115R3HEHBQTFRRM6RHelpfulReviews3&uri=%2Fgp%2Fproduct%2F1582343675&2115%7CR3HEHBQTFRRM6R.contentAssoc.1.type=AmazonCustomer&2115%7CR3HEHBQTFRRM6R.contentAssoc.2.id=1715653&qv=1&contentId=2115%7CR3HEHBQTFRRM6R&label=Helpful&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&2115%7CR3HEHBQTFRRM6R.contentAssoc.1=1&context=Reviews&needsSignIn=1&2115%7CR3HEHBQTFRRM6R.contentAssoc.2=1';
+var vnUrl = 'http://www.amazon.ca/gp/vote/ref=cm_r8n_yesno_submit/702-3388546-3128011?ie=UTF8&2115%7CR3HEHBQTFRRM6R.contentAssoc.1.id=AUA64NQ3X56OJ&2115%7CR3HEHBQTFRRM6R.contentAssoc.2.type=ProductSet&type=if&uid=2115R3HEHBQTFRRM6RHelpfulReviews3&uri=%2Fgp%2Fproduct%2F1582343675&2115%7CR3HEHBQTFRRM6R.contentAssoc.1.type=AmazonCustomer&2115%7CR3HEHBQTFRRM6R.contentAssoc.2.id=1715653&qv=1&contentId=2115%7CR3HEHBQTFRRM6R&label=Helpful&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&2115%7CR3HEHBQTFRRM6R.contentAssoc.1=1&context=Reviews&needsSignIn=1&2115%7CR3HEHBQTFRRM6R.contentAssoc.2=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+By now, you may conclude that these are works that are hard to pigeonhole. But after finishing this third book, I see some common themes emerging in Paul's work. Most apparent, of course, is a fascination with the forgotten corridors of the past. History is mostly the story of our journey down a few well-lighted, well-traveled paths. Every now and then, however, we're lucky enough to have a Paul Collins who loves to explore the dark, musty, mostly forgotten byways. It's often here that he finds a telling anecdote or incident that helps to illuminate his world, and ours.
+The greatest characteristic of Paul's work, though, is empathy. "Banvard's Folly" easily could have been done in a tongue-in-cheek, "aren't these people a laugh" kind of style. Instead, Paul wrote with a real understanding of what motivated these individuals. Empathy is what shines through the pages of this book. Not only his love for his son, but also his caring for the autists he meets in a coffee house or only in the dusty pages of an old archive. This is a man who understands, and who cares.
+And then, of course, we have the moment when Collins sees an adult version of his son at a fast food restaurant and watches the reaction of people around him, then walks a few blocks, stops, sits down on the stoop of a church, and cries. "I can't bear the thought that someday, somehow, someone will be cruel to my child. Or pretend that he is not even there." His pain is palpable; you can't help but care about him and empathize with his struggle.
+Quietly, deftly, Collins also seeks to reshape the way we think about autism. For instance, he says, "Autists are described by others--and by themselves--as aliens among humans. But there's an irony to this, for precisely the opposite is true. They are us, and to understand them is to begin to understand what it means to be human. Think of it: a disability is usually defined in terms of what is missing. A child tugs at his or her parents and whispers, 'Where's that man's arm?' But autism is an ability and a disability: it is as much about what is abundant as what is missing, an overexpression of the very traits that make our species unique. Other animals are social, but only humans are capable of abstract logic. The autistic outhuman the humans, and we can scarcely recognize the result."
+If you want to know a writer of true grace, get to know the works of Paul Collins.--(...)
+Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/15/nav2/dp/btn-yes-tiny.gif' " +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/15/nav2/dp/btn-no-tiny.gif' " +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame');
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    return false;
+}
+
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognized to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R36DVP0CS0J56JHelpfulReviews6';
+var vyUrl = 'http://www.amazon.ca/gp/vote/ref=cm_r8n_yesno_submit/702-3388546-3128011?ie=UTF8&2115%7CR36DVP0CS0J56J.contentAssoc.1.id=A3IXXKW3OTJ43S&type=if&2115%7CR36DVP0CS0J56J.contentAssoc.2.id=1715653&uid=2115R36DVP0CS0J56JHelpfulReviews6&uri=%2Fgp%2Fproduct%2F1582343675&2115%7CR36DVP0CS0J56J.contentAssoc.2=1&2115%7CR36DVP0CS0J56J.contentAssoc.2.type=ProductSet&qv=1&contentId=2115%7CR36DVP0CS0J56J&label=Helpful&2115%7CR36DVP0CS0J56J.contentAssoc.1=1&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&2115%7CR36DVP0CS0J56J.contentAssoc.1.type=AmazonCustomer&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.ca/gp/vote/ref=cm_r8n_yesno_submit/702-3388546-3128011?ie=UTF8&2115%7CR36DVP0CS0J56J.contentAssoc.1.id=A3IXXKW3OTJ43S&type=if&2115%7CR36DVP0CS0J56J.contentAssoc.2.id=1715653&uid=2115R36DVP0CS0J56JHelpfulReviews6&uri=%2Fgp%2Fproduct%2F1582343675&2115%7CR36DVP0CS0J56J.contentAssoc.2=1&2115%7CR36DVP0CS0J56J.contentAssoc.2.type=ProductSet&qv=1&contentId=2115%7CR36DVP0CS0J56J&label=Helpful&2115%7CR36DVP0CS0J56J.contentAssoc.1=1&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&2115%7CR36DVP0CS0J56J.contentAssoc.1.type=AmazonCustomer&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+The way that Collins blends a momentous year in the life of his family with a variety of stories about the history of autism and notable autists (including many whose conditions have been diagnosed posthumously, because autism wasn't understood at all until recently) works, too. We feel his pain and his growth, and laugh and cry with him, even as he gently gives us a textbook education in the development of society's understanding of the condition, from Peter the Wild Boy to Rainman and beyond.

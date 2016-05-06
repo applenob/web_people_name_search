@@ -1,0 +1,20 @@
+
+David Lodge
+Category: 
+
+
+ISBN: 9780142000861ISBN10: 0142000868Published: Penguin USA Publish Date: 2002-09-01Edition: ReprintPages: 352Binding: PaperbackDimensions: 38.75 L x 25.00 W x 3.75 HWeight: 2.75 lbs
+
+
+
+function tellFriend() {
+if (!askitWindow || askitWindow.closed) { 
+
+	askitWindow = window.open('Friend.php?detail_isbn=0142000868&type=book','askit','title ="hi",toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=520');
+
+   }
+}
+var deep;
+function goDeep() {
+if (!deep || deep.closed) { deep = window.open('http://www.textbookx.com/deep_discount.html','deep','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=380,height=238');
+} else { deep.focus(); deep.location='http://www.textbookx.com/deep_discount.html'; }}

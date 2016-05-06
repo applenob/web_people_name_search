@@ -1,0 +1,209 @@
+
+Tim O'Reily describes Web 2.0 as harnessing the collective wisdom and
+          activity of the masses. Library Thing (LT) applies this principle to the
+          public's love of reading, and to the the networked libraries and bookstores
+          that support it. LT's simple search box points to Amazon, but Z39.50 allows
+          searching across multiple library catalogs as well. The database includes 7.2
+          million user-tagged catalog records (of which many are duplicates) and 87,000
+          book reviews. By contrast, she suggests, tagging on Amazon has been anaemic,
+          because it's like "volunteering to fluff pillows at the local Sheraton". With
+          LT, users get to shape and personalize their own catalogs, and, because the API
+          is made available, they can create their own derivative applications. Another
+          important part of its success has been a low barrier to participation. The
+          single requirement for a free account is establishing a unique username and
+          password.
+Today mostly trying to sell us on Primo, i.e., Ex
+          Libris's answer to MediaLab's AquaBrowser
+          and Endeca's Information Access
+          Platform . Application of Gresham's Law to
+          cataloging: Cheaper or quicker will generally prevail over more expensive or
+          slower. There is a Kulturkampf raging between administrators and Technical
+          Services staff, as evidenced in Karen Calhoun's position papers, LC's series
+          tracing decision, University of California's "Rethinking how we Provide
+          Bibliographic Services ...", OCLC's "Perceptions of Libraries
+          and Information resources", animated discussion on the NGC4LIB discussion
+          group, and Jeffrey Beall's recent comment in LJ ("Stop the war on
+          metadata"). Kaplan believes that the fight is over. Since at least 2001,
+          the demand for human-generated metadata has declined while "full-text is
+          king".
+Open URL link resolvers such as SFX, federated searching (e.g., MetaLib),
+          digital asset management systems (e.g., Digitool), Electronic Resource
+          Management systems (e.g., Verde), are growing in importance. ." Cites "The Future of
+          Integrated library Systems" by Marshall Breeding,
+          who asserted that the ILS, after having matured over 2 decades, reached a
+          crisis around 2000, as it remained overly fixated on print resources. Also, as
+          Roy Tennant has put it, "Librarians like to Search, but users like to
+          find."
+Users are able to assign tags, find resources using tags, write
+          long annotations, share links, annotations, and tags, and have annotations
+          displayed within OPAC and PennTags pages. Students use PennTags create simple
+          bookmarks and annotated bibliographies as class assignments, librarians to
+          prepare research guides, while enthusiasts create "shadow catalogs", such as
+          the 700 items identified as relating to 20th century classical music in
+          cinema.
+Presenter: Abby
+          Blachly, head (and only) librarian at librarything.com.
+Idea of "incunabula"
+          is that a new publishing medium starts off by imitating the old, e.g., the
+          printed book at first mimicked the manuscript codex. (Interestingly, the
+          incunabulum Gutenberg Bible featured moveable type but also hand-crafted
+          illuminations that subverted the productivity gains of the new technology.)
+          Today, a good example of incunabula is the PDF file which is designed to look
+          (and largely function) like a printed book. The post-incunabula Web, however,
+          tries to separate data from presentation. It supports recombinant dynamic data
+          elements, and prefers open-source over locked-down code, and features books
+          that can "talk to one another".
+My question: You began by suggesting that the library community can
+          never catch up with Google, but then went on to say  we should purchase
+          Primo or something similar in order to stay competitive. Aren't you
+          contradicting yourself? Wouldn't it make more sense simply to incorporate
+          Google applications where ever they outperform library-specific ones? At the
+          same time, shouldn't we participate in open source software movement in order
+          to supplement the small number of developers employed by library system
+          vendors? Also, shouldn't libraries be focusing their energies where we really
+           have a competetive edge, namely, educational mission, access to
+          authoritative information, commitment to intellectual freedom, and market
+          ourselves accordingly? Despite what it's literature says, Google's mission is
+          to turn a profit for shareholders (witness their willingness to censor
+          information in China). This doesn't make Google evil, but it should remind us
+          that we occupy a very different niche in the information economy. Kaplan
+          responded that "libraries have the moral high ground; Google has the
+          technological high ground"; and libraries need to be credible in both areas.
+          So, I'm not sure he understood my question. To be fair, though, since he
+          represents a for-profit vendor, he may not be able to identify himself fully
+          with the non-profit, educational perspective I was suggesting.
+Flattered audience by saying that "the one thing that librarians do really
+          well is cataloging," and is reluctant to meddle in this activity, but
+          "cataloging data is essential" to what he wants to accomplish.
+Recommends Hinchcliffe's (web2.wsj2.com)
+          10 ways to take advantage of Web 2.0: (1) encourage social contributions with
+          individual benefit; (2) make content editable whenever possible; (3) encourage
+          unintended uses; (4) provide continuous, interactive user experiences; (5)
+          offer content as feeds and/or web services; (6) let users establish and build
+          on their reputations (best example: slashdot.org); (7) allow low-friction
+          enrichment of information; (8) give users right to remix; (9) reuse other
+          services aggressively; (10) build small
+          pieces loosely joined (cf: David Weinberg book title).
+Why tags rather than LC subject headings? A year after event, "Hurricane
+          Katrina" still not in LCSH [is that true?]. By contrast, an LT tag cloud begins
+          forming immediately. This isn't to say that LCSH is unimportant, and LT in fact
+          supports it.
+PennTags has not officially been released to the public, and Allen looks
+          forward to an upcoming marketing campaign within university, collaboration with
+          other universities, and development of an instrument to measure influence.
+          Future releases to include DOI support, image functions, output integration to
+          other library resources, export to delicious, Endnote, rtf, Refworks, Bibtext,
+          etc., an open access API, export option in RDF, and better data mining
+          capability.
+Current library OPAC is "Web 1.0 in every way", i.e., not very customizable,
+          attractive, extensible, or accommodating of user-driven improvements. Feels the
+          same way about library Web sites. Wants people to remember that the OPAC and
+          Web site are the library's public face.
+Suggestion for getting "beyond the website" include: (1) designing for
+          innovation, e.g., by using and releasing APIs, encouraging community
+          development and lowering barriers to user and staff creativity, reaching out to
+          potential partners such as local library schools, and education; (2)
+          recognizing importance of "gadgets" in users' lives, including IPv6, cell
+          phones, PDAs, PMPs, PGDs, smart homes, smart cars, and remembering that
+          "knowing technology means knowing how to take advantage of it"; (3)
+          incorporating services such as Google books/maps/gadgets, Amazon, Greasemonkey, etc. (Blyberg used Google Gadgets API,
+          for example, to sort titles by popularity, etc., and mash-ups that combine AADL
+          records with Google Book images). Byberg disputes that we're in competition
+          with Google, but maintains that even if we were, we have competitive edge
+          insofar as we really know our communities.
+Crane stressed the importance of "named entity analysis" whereby a block of
+          text is auto-tagged, and place names mapped against Getty's Thesaurus of
+          Geographic Names (TGN) and Google Maps. Translations can be done on the fly
+          through automated extraction and pairing of blocks of original text with blocks
+          of translation text.
+The new OPAC needs to meet people where they are, rather than expecting them
+          to come to us. Example: virtual catalog cards
+          that allow readers to write marginalia, and deposit personalized cards in their
+          personal collection. Don't underestimate the ingenuity of patrons. Give them
+          more control over library tools, and see how they develop them. Then
+          incorporate the best of these new developments into general system.
+Could something similar be set up at Yale using Voyager and Sakai?
+Given access to API, could certain features be lifted out of the full
+          program and incorporated into, say, a Voyager environment? E.g., potential use
+          as recommendation engine?
+Presenter: Laurie Allen, chair of PennTags Development Team (1 librarian, 1
+          programmer) and Social Sciences Data Services Librarian at UPenn's Van Pelt
+          library.
+Presenter: John Blyberg, Systems
+          Administrator and Lead Developer for Ann Arbor
+          District Library (AADL) . Recognized by Library Journal as 2006 "Mover
+          & Shaker".
+Given that most users have free accounts (i.e., the version usable for up to
+          200 titles), I asked about cost-recovery. Abby explained that in addition to
+          the membership fees from heavy users, they have recently received venture
+          capital.
+Presenter: Michael Kaplan, Digital Products
+          Technical Support Director at Ex Libris. Prior to 2000, Associate Dean of
+          libraries and Director of Technical Services at Indiana University,
+          Bloomington. At one point served as chair of PCC and Big Heads.
+How should we respond, when events always seem to overtake the profession.
+          Vendor community is too small to compete with Google, and implement new
+          technologies in a timely manner. Some bright spots though. Major 2006 milestone
+          was OCLC exposing library data on Web through OpenWorldCat.org. Presentation
+          and social networking functions also getting better.
+Regarding "dynamic data", Crane used to disparage Wikipedia, but now marvels
+          at its capacity for self-policing and correction. Though professional academics
+          are traditionally skeptical about this kind of thing, amateur historians and
+          genealogists turn out to be exactly the kinds of people you want scrutinizing
+          your data (e.g., disambiguating place names identified through automated TGN
+          matching--see below).
+Presenter: Gregory Crane, editor in chief of the Perseus Digital Library at Tufts,
+          currently administering $2.7 million grant from Digital Library Initiative.
+          According to the bio sheet, "His current research focuses on 'computational
+          humanities' and how this new field can help to democratize information without
+          compromising intellectual rigor."
+The most important feature for a  2.0 OPAC is relevancy ranking, Kaplan
+          suggests. Other key elements include faceting, clustering, FRBR display, social
+          tagging, and recommendations. In order to optimize these features, the user
+          experience must be "decoupled" from back-office functions, i.e., data creation
+          and maintenance from discovery (slide 62).
+dsl 11/06
+I asked about copyright protection of licensed resources that were tagged
+          and then exported. Allen answered that only the tags and URLs get exported.
+          Anyone trying to open a linked resource would still need to be authenticate as
+          a licensed user.
+Conclusions: librarians are central to these new developments, and
+          opportunities to contribute are vast. There is an especially great need for
+          authority lists and other forms of disambiguation. He mentioned CIDOC-CRM (International Council of
+          Museums International Committee for Documentation Conceptual Reference Model),
+          FRBR, MODS as key resources. Sustainable cataloging in era of scarce labor will
+          require Wikipedia-like collaboration plus automated analysis. Let machines to
+          most of the analysis and mapping, and let human experts set the algorithms and
+          tweak the results. The larger community can also contribute their interests and
+          experience to building up the knowledge base.
+Recombinant data requires a substratum of structured metadata. Crane's work
+          requires use of metadata not normally found in library catalog records, e.g.,
+          native citation scheme such as chapter numbers. Perhaps catalogers should be in
+          the business of providing such detail, since they prove especially useful in
+          systems interoperability. In the humanities, native citation schemes are
+          extremely important for collocating various editions along with secondary
+          sourcess.
+The idea of books talking to one another was suggested in the artificial
+          intelligence work of Marvin
+          Minsky. What Crane is discussing is less futuristic but extremely useful.
+          He demonstrated for example, a context-sensitive dictionary of morphological
+          anaylsis that pops up while reading a Greek text in the Perseus database.
+Interesting features include the identification of prospective "soul mates",
+          i.e., members determined through machine matching to have book collections most
+          similar to your own; a portrait gallery composed of user-submitted author
+          images; an interface translated by volunteers into 30 languages, and a communal
+          form of authority control whereby users submit commands to "Combine" and
+          "Separate" access points.
+At least one cultural heritage institution has adopted LT as its official
+          OPAC: New York's Museum of Comic Art
+          uses it to display its 1,040-title book
+          collection.
+PennTags employs Oracle, bookmarklets, javascript, "triplets" (RDF?), HTML
+          & RSS output engines, and AJAX laid on top of catalog results. Every
+          PennTag page is also an RSS feed.
+Currently the system is optimized for books, but work is underway to support
+          other media more effectively.
+Fundamentals of Library 2.0 Web design include: (1) single sign-on; (2) open
+          standards (vendors need to move more quickly on this); (3) OSS (philosophically
+          the right thing to do, i.e., managing access to our own data); (4) integrated
+          OPAC; and (5) social software.

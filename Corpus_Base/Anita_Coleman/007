@@ -1,0 +1,111 @@
+
+Step 3: Answer the question: What is scientific reasoning?
+URL: http://www.educationau.edu.au/archives/cp/05.htm
+Characteristics of ADEPT collections:
+
+
+A collection of resources collected for a certain purpose.
+
+In this case, they are collection geomorphic information. Even if the subject
+and keywords do not contain geomorphology, (eg dem's) any item collection
+should
+be associated with this collection.
+
+once this collection is finished, then someone needs to go though and build the
+"semantic" map for the collection. These resources were collected
+with a certain
+topic an project in mind, how do they realate together.
+RFC:  Idea for
+Proposal: See http://www.alexandria.ucsb.edu/~acoleman/tmaps.html
+(question 10 at end)
+References (what is an
+educational collection):
+
+Yourda, Yolaine, and Marc Helier.  Applying IEEE Learning Object Metadata
+to Publishing Teaching Programs.  URL: 
+http://wwwsi.supelac.fr/yb/publis/edmedia99.html Available:  01/15/2001
+ADEPT
+Collections and Services
+Step 5:  Define
+learning environments (comes from the Feb. 28 User scenarios paper from Tim)
+Step 2:  Identify
+Characteristics/steps of learning:
+It has generally been found that people perform better with
+relations that can be visualized and there’s both a spatial representation
+theory of reasoning and a subsequent semantic theory.  Mayer has a classic book on this subject (Revlin & Mayer,
+1974).
+RFC:  Send your
+definitions ADEPT collections to asc@acm.org
+Source:  What is the
+modelling curriculum?  http://www.ultralab.anglia.ac.uk/Pages/ULTRALAB/A_Good_Read/ModellingCurriculum.html
+
+Generality
+Practice - State definition
+
+Created by Anita
+Coleman
+Step
+7:  Work with DLESE (Status:  unresolved)
+
+Objective -
+Define a concept (Remember-Use)
+Created on 02/14/01
+Markus. Educational Metadata.
+URL: http://www.ddl.org/figtree/pub/proceedings/prague-final-papers/markus.html
+Marshall, Catherine C. 
+Making Metadata: A Study of Metadata Creation For A Mixed Physical-Digital
+Collection.  URL: 
+http://www.csdl.tamu.edu/~marshall/dl98-making-metadata.html 
+Available:  01/15/2001
+
+Powell, Andy.  Simple Collection Description.  URL: 
+http://www.ukoln.ac.uk/metadata/cld/simple  Available:  01/15/2001.
+Generality -
+Definition (attributes, relationships)
+Reasoning is closely related to problem-solving and involves
+both concept formation (inductive reasoning) and deductive reasoning (logical
+argument).
+Other characteristics: [add]
+Last modified:
+02/15/01
+Put in stuff here about concept learning such as their
+characteristics:
+Services we’ve identified thus far include:
+Learning with software: pedagogies and practices.
+Status:
+Step 6: How can these learning concepts define an ADEPT
+educational collection and be modeled in the collections and services for a DL
+of educational users?
+Step 1:
+Identify definitions of collections as per project – discussed at Collections
+Meetings (01/31 and 02/14) with the diagrams below.
+Step 4: Investigate and propose the use of a theory (for
+example, Component Display Theory, Roberts’ model, etc. is used below), and
+specify the following minimum characteristics of an “exemplar”
+teaching/learning ADEPT collection:
+
+Dave V’s definition:
+1) Errors in concept formation are: overgeneralization,
+undergeneralization, and misconception
+Scientific reasoning (at the practical, visible level) has
+the following steps:
+Instance -
+Examples (attributes present, representations)
+Proposed
+Document Outline:
+Elaborations -
+Helps, Prerequisities, Context
+1. elaborate problem-solving, memorization (
+Educational objectives: 
+Bloom’s Taxonomy [mapped using?] Media for Inquiry Taxonomy
+“If the generality was presented by an explanation or
+illustration, followed by practice examples, this would be an expository
+strategy (EG,Eeg). On the other hand, if the students were required to discover
+the generality on the basis of practice examples, this would be an inquisitory
+strategy (IG, Ieg). “
+Feedback -
+Correct generalities/instances
+Roberts et al describe a sequence of activities for
+developing a model (see fig 1).
+Instance
+Practice - Classify (attributes present)

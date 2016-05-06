@@ -1,0 +1,169 @@
+
+In July 1950, the
+    National Bureau of Standards (NBS) reported that the RCA system demonstrated its
+    superiority in more (12) of the eighteen categories than CBSs line-interlaced system
+    (9). It also offered the most "opportunity for improvement." Despite this report
+    and the demonstrations of RCAs basic technologies and principles of electronic
+    color-compatible television, the FCC rejected RCAs system in September 1950.
+In January 1949,
+    Brown, Bedford, Kell, David Luck, William Cherry, George Sziklai, and Alfred Schroeder
+    agreed that RCAs objective should be a system in which color signals could be
+    received without adjustment in monochrome on black-and-white sets while monochrome signals
+    could be received by color sets. The broadcast signal should take up no more than the 6
+    MHz bandwidth allotted for monochrome, and the picture quality should be equivalent in
+    resolution, brightness, and flicker. Elmer Engstrom, then Vice President in Charge of
+    Research, RCA Laboratories, summarized the methods by which RCA would accomplish these
+    goals:
+Until then, these
+    developments had taken place in relative obscurity at the Princeton Labs. When the FCC
+    announced that hearings on proposed formats for color television would begin in September,
+    however, RCAs R&D on the system commanded the attention of the government, the
+    media, and the competition for the next eight months. During this time, despite the
+    distractions, the Labs staff transmitted color broadcast signals through
+    AT&Ts 2.7 megacycle coaxial cable, conducted channel-interference tests for its
+    own and competing systems, showed undistorted monochrome signals on a color set, and,
+    perhaps most importantly, developed a single-cathode ray tube color receiver.
+Over the winter,
+    more than fifty scientists and engineers at the Princeton Labs, supported by technical and
+    administrative staff, worked with engineers at RCAs CRT plant in Lancaster,
+    Pennsylvania, to make a demonstration model. By the end of March, 1950, as promised, RCA
+    showed the FCC its color picture tube in a receiver similar to those consumers bought for
+    black-and-white television. More than any other component of the system, the shadow-mask
+    CRT made color television a practical household technology.
+Bedfords
+    "mixed highs," along with Clarence Hansells application of time-division
+    multiplexing to color broadcast transmissions, enabled the compression of the televised
+    signal into two components. One carried the luminance, or brightness, and the other the
+    chrominance, or color information. A monochrome set would simply ignore the color
+    component on the subcarrier. Receiving monochrome signals on a color receiver proved more
+    complicated, but Harry Kihns "Kolor Killer" circuit resolved the problem.
+    Thus, color and monochrome receivers would be able to display, without adjustment,
+    transmissions of monochrome and color programs.
+On this site between 1946 and 1950 the research staff of RCA Laboratories invented the
+    worlds first electronic, monochrome- compatible, color television system. They worked
+    with other engineers in the industry for three years to develop a national analog standard
+    based on this system, which lasted until the transition to digital broadcasting.
+After RCA
+    carried out more field tests, the NTSC forwarded this standard to the FCC in a petition on
+    July 22, 1953. The FCC approved the standard on December 17 and it has remained in place
+    for analog color television transmission ever since.
+In 1946, then, RCA
+    committed to developing an all-electronic system designed to the same reception standards
+    enjoyed on monochrome sets. By 1947, Kells group had demonstrated two versions of
+    electronic color television, the highlight of which was the use of Alda V. Bedfords
+    principle of mixed highs. Bedford showed that the human eye could distinguish changes in
+    brightness but not in color at high levels of detail. Therefore high-frequency components
+    of the primary colorsred, green, and bluecould be blended and carried on one
+    of the color signals, reducing the amount of bandwidth necessary for transmission.
+RCA unveiled its
+    final system in June 1951 at NBCs Washington studios. A week later, RCA conducted
+    another successful demonstration at the RCA Exhibition Hall in Manhattan, featuring
+    Nanette Fabray. Extensive field testing using this standard began in February 1952 by
+    several manufacturers with continued RCA support. A year later, the second NTSC published
+    its color standard which, but for a minimal adjustment to the color subcarrier frequency,
+    followed RCAs lead.
+The laboratories researchers, led by Ray D.
+    Kell,
+    experimented with electromechanical field sequential color systems during and shortly
+    after the war, demonstrating such a system to the FCC in December 1945. Despite the
+    demos success, Elmer Engstrom and the Labs management realized the practical
+    limitations of the technology in terms of picture brightness, monochrome compatibility,
+    and scalability of the picture image. Such systems used a three-color filter on a wheel
+    approximately three times the size of the image. To reduce flicker to an acceptable level,
+    the wheel spun at 3600 rpm.
+During the
+    hearings in October and November, RCA demonstrated a system that, when not suffering the
+    effects of a heat wave, indicated the feasibility of a compatible electronic color
+    television system. The images were not impressive compared to the improved CBS system, the
+    weak point being the receiver. The "triniscope" used three kinescope tubes and
+    an arrangement of mirrors to project the color image on a screen. The sheer bulk of this
+    design required that the labs develop a more practical alternative for the home to gain
+    approval of their system from a commission that wanted color television implemented as
+    soon as possible. Engstrom promised the FCC that RCA would have a full-color cathode ray
+    tube (CRT) ready in six months. This provoked a crash research and development effort, the
+    success of which contradicted the many experts who claimed it couldnt be done.
+RCA also continued
+    to improve camera tubes. In a studio environment, size was less of a problem. Princeton
+    staff, led by Dr. Paul K. Weimer, borrowed from the monochrome system that he had helped
+    invent and applied it to color. The color camera was composed of three image orthicons,
+    the standard tube for broadcasting developed at the labs during World War II. Each image
+    orthicon scanned an image in a primary color, treating it like a monochrome picture. The
+    camera circuitry then blended the three primaries--red, green, and blue--and sent the
+    image to the amplifier. RCA introduced the first commercial color camera, the TK-40, based
+    on this design, in 1952. Weimer and his team continued to work on a single-tube color
+    camera based on their two-inch vidicon tube, which RCA announced three years later.
+The rest of the
+    television industry agreed with the NBS, however, and had already started refining the
+    format and technologies developed by the labs. The second National Television System
+    Committee (NTSC) , comprised of engineers from all the interested parties, was organized
+    in January 1950. Members of the industry and the FCC agreed to develop with RCA a standard
+    for electronic color television broadcasting and reception. The NTSC adopted
+    specifications for field testing in December, 1951. As Elmer Engstrom pointed out, the
+    specifications did not differ significantly from what RCA had proposed in 1946:
+Eric
+    Wendt, Chair,IEEE Princeton/Central New Jersey Section, Harry Kihn, IEEE Life
+    Fellow and Jim Carnes, President and CEO-Sarnoff Corporation, unveil the IEEE Milestone
+    Plaque.
+Researchers
+    developed five versions of the single tube but all agreed that Harold B. Laws
+    refinement of Schroeders shadowmask tube offered the best solution. The tricolor
+    picture tube resembled a monochrome receiver, where the screens glow was based on
+    the intensity of the electron beam and signal. The main difference was that the color tube
+    contained three electron guns, one for each of the primary colors. The mask was placed
+    next to the screen and allowed the guns to strike the screen through hundreds of thousands
+    of perforations. Deposited on the screen were hundreds of thousands of tiny phosphor
+    clumps, each comprised of three discrete dots. When the guns struck the appropriate dots,
+    they emitted red, blue, and green light according to the intensity of the beam. The
+    relative brightness of the phosphors determined the colors seen by the viewer.
+The Radio Corporation of America's (RCA) color system was the
+    only one designed to be directly compatible with monochrome broadcast transmissions and
+    the only one that used no moving parts. Until the researchers at the RCA Laboratories took
+    up the challenge after World War II, it appeared that the Federal Communications
+    Commission (FCC) would approve the Columbia Broadcasting Systems (CBS)
+    electromechanical system of color television. This was incompatible with the monochrome
+    television system established before World War II. Encouraged by chief executive David
+    Sarnoff and supported by engineers at other branches of the corporation, the staff at RCA
+    Labs laid out the conceptual framework, established most of the principles and
+    techniques, and demonstrated the technologies necessary for the electronic pickup,
+    broadcast, and reception of color television in the home. This system, with contributions
+    by other companies, became an international standard still used for analog color
+    television.
+By the end of
+    1948, however, technical and regulatory pressures forced the Labs researchers to
+    start finding ways to compress the bandwidth for color to the six megahertz (MHz) used for
+    monochrome in the VHF section of the electromagnetic spectrum. Until then, they and the
+    FCC had counted on broadcasting color in the UHF section, using up to 14.5 MHz per
+    channel. Princeton staff under Dr. George Brown discovered the difficulties in using the
+    UHF band for television in terms of both propagation and power consumption, while the
+    growing demand for channels indicated that broadcasters would use 6 MHz allotments in UHF
+    as an extension of VHF.
+The most
+    significant contributions to RCAs system came from the Hazeltine Corporation.
+    Hazeltine, which had a cross-licensing agreement with RCA, demonstrated to the Princeton
+    lab researchers its concepts of constant luminance and "shunted monochrome" in
+    April 1950. The latter resolved one of the problems of compatibility between electronic
+    color transmission and its reception on a monochrome receiver, and was similar to an idea
+    George Brown had frequently sketched but never patented. Constant luminance represented an
+    extension of Bedfords mixed-highs principle to changes in brightness over time and
+    significantly improved the picture image. On December 5, 1950, RCA demonstrated its system
+    using what it called the "bypassed" monochrome concept which resulted in greatly
+    reduced moiré patterns on the shadow-mask tube.
+To reduce color
+    fringing within the narrower transmission, Schroeder and Kell adapted quadrature-amplitude
+    modulation to transmit a wideband orange-cyan I axis and narrowband green-purple Q axis.
+    This provided full-color reproduction in video frequencies of less than 0.5 MHz by the Q
+    and I axes, two-color reproduction between 0.5 and 1.5 MHz by the I axis, and monochrome
+    detail between 1.5 MHz and 4.2 MHz. RCA announced its compatible, dot-sequential system on
+    August 25, 1949, broadcasts of which began in September on NBC's WNBW Channel 4 in
+    Washington, D.C.
+Mixed highs and
+    multiplexing also reduced bandwidth usage so that, along with John Evanss and
+    Randall Ballards proposal to use dot interlacing to scan the colors, the Princeton
+    engineers established the basis for modern analog color television. The dot sequential
+    color system involved high-speed time-division multiplexing using a sampling frequency of
+    3.583125 MHz. Initially, synchronization of the sampling frequencies between the
+    transmitter and receiver was accomplished by varying the timing of the trailing edge of
+    the horizontal sync pulse, thereby controlling the sampling phasing and color dot
+    interlace on a line-to-line basis. Bedford overcame the instability of this method by
+    suggesting that a reference burst of the color sampling frequency be transmitted during
+    the "rear porch" of the horizontal sync waveform.

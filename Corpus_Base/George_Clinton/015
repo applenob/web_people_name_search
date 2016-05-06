@@ -1,0 +1,13 @@
+
+George Clinton, the colorful singer known as Dr. Funkenstein, was busted in December 2003 by Florida cops and charged with possession of cocaine and drug paraphernalia. The 62-year-old Parliament-Funkadelic founder, who owns a home in Tallahassee, spent less than an hour in the Leon County Jail before coming up with the $2650 he needed to bond out.
+Click here for TSG's extensive mug shot collection.
+WOOHOO: The Dog Dialed 911, TSG's new book, has arrived!
+E-mail this mug shot to a friend.
+function openWindow2(theURL)
+{
+  winName = 'emailthis';
+  features = 'scrollbars=yes,width=485,top=185,left=128,resizable=no,height=' + (screen.availHeight-370);
+  
+  theWindow = window.open(theURL,winName,features);
+  theWindow.focus();
+}

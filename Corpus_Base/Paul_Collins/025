@@ -1,0 +1,152 @@
+
+Paul is a writer and life in San Francisco was becoming too expensive. The plan would be to find a house, fix it up and live there forever. Paul could write and dream. Jennifer could paint and Morgan would grow up.
+13 of 15 people found the following review helpful:
+Paul and his wife and babe live in a hotel while they are looking for a house. They meet with an agent who really works for the sellers- no one works for buyers in Wales. They look at very old houses, with very small rooms and lots of work to be done. They find one that they love, but... the sellers want too much money. They find another house but the sellers want to be paid again for the land if they sell the house and it's acres...
+This is a book for those of us who love books. Paul Collins tells us a story about a town and the people who live there and love their books. He writes about publishing, and eccentrics. He tells us his tales of the family's explorations and travels. He gives us his personal memoir and tells a tale of a family who follows their dream...and then he tellsus of the time he lost his American passport. This is a book not to be missed. A book lover's delight. prisrob
+ Comment | Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoCommunityResponse(uId,result,value) {
+    var msgLayer = getElement("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+      msgLayer.innerHTML = "Thanks for the valuable feedback you provided to other Amazon.com readers and reviewers. Your vote will be counted and will appear on the product page within 24 hours.";
+    } else {
+      showVoteErrorResponse(msgLayer,result,value);
+    }
+  }
+
+//-->
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-yes-tiny.gif' " +
+                 "id='" + uId + "_yes'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-no-tiny.gif' " +
+                 "id='" + uId + "_no'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame_'+uId);
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    if ( ''.length > 0 ) {
+        showLoadingMessageForYesNo(uId);
+    }
+
+    return false;
+}
+
+  function showLoadingMessageForYesNo(uid) {
+      var noBtn = document.getElementById(uid+'_no');
+      var yesBtn = document.getElementById(uid+'_yes');
+      var msgLayer = document.getElementById("thanks" + uid);
+
+      if( noBtn != null && yesBtn != null && msgLayer != null) {
+          noBtn.style.display = 'none';
+          yesBtn.style.display = 'none';
+          msgLayer.innerHTML = "";
+      }
+  }
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognized to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R2CMIGDB21I6FKHelpfulReviews1';
+var vyUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/102-9993586-9088139?ie=UTF8&2115%7CR2CMIGDB21I6FK.contentAssoc.2.id=1635195&type=if&uid=2115R2CMIGDB21I6FKHelpfulReviews1&uri=%2Fgp%2Fproduct%2F1582342849&2115%7CR2CMIGDB21I6FK.contentAssoc.2.type=ProductSet&2115%7CR2CMIGDB21I6FK.contentAssoc.1.id=A1TPW86OHXTXFC&qv=1&contentId=2115%7CR2CMIGDB21I6FK&label=Helpful&2115%7CR2CMIGDB21I6FK.contentAssoc.1.type=AmazonCustomer&2115%7CR2CMIGDB21I6FK.contentAssoc.1=1&qk=%2AVersion%2A&2115%7CR2CMIGDB21I6FK.contentAssoc.2=1&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/102-9993586-9088139?ie=UTF8&2115%7CR2CMIGDB21I6FK.contentAssoc.2.id=1635195&type=if&uid=2115R2CMIGDB21I6FKHelpfulReviews1&uri=%2Fgp%2Fproduct%2F1582342849&2115%7CR2CMIGDB21I6FK.contentAssoc.2.type=ProductSet&2115%7CR2CMIGDB21I6FK.contentAssoc.1.id=A1TPW86OHXTXFC&qv=1&contentId=2115%7CR2CMIGDB21I6FK&label=Helpful&2115%7CR2CMIGDB21I6FK.contentAssoc.1.type=AmazonCustomer&2115%7CR2CMIGDB21I6FK.contentAssoc.1=1&qk=%2AVersion%2A&2115%7CR2CMIGDB21I6FK.contentAssoc.2=1&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+In the meantime, Paul starts working at Booths, one of the 40 bookstores and the largest. He is asked to organize the American section. He reports to work and finds books and books and books and more books stored here and there. Many of the books he finds have stories of their own and Paul is quick to tell them.  Who would have thought I might be interested in reading "The Gentle Art of Faking" by Riccardo Nibili?

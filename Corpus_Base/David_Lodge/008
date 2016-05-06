@@ -1,0 +1,290 @@
+
+As always, Lodge manages to weave all these stories together and bring them all to a satisfying conclusion that is both surprising  and pleasant for all- or at least most- concerned.
+ Comment | Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-yes-tiny.gif' " +
+                 "id='" + uId + "_yes'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-no-tiny.gif' " +
+                 "id='" + uId + "_no'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame_'+uId);
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    if ( ''.length > 0 ) {
+        showLoadingMessageForYesNo(uId);
+    }
+
+    return false;
+}
+
+  function showLoadingMessageForYesNo(uid) {
+      var noBtn = document.getElementById(uid+'_no');
+      var yesBtn = document.getElementById(uid+'_yes');
+      var msgLayer = document.getElementById("thanks" + uid);
+
+      if( noBtn != null && yesBtn != null && msgLayer != null) {
+          noBtn.style.display = 'none';
+          yesBtn.style.display = 'none';
+          msgLayer.innerHTML = "";
+      }
+  }
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognized to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R1ZPW6AM4IQZ6YHelpfulReviews2';
+var vyUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/104-5677716-5785512?ie=UTF8&type=if&uid=2115R1ZPW6AM4IQZ6YHelpfulReviews2&uri=%2Fgp%2Fproduct%2F0140165215&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.1.type=AmazonCustomer&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.1.id=A1RPTVW5VEOSI&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.2.id=1873&qv=1&contentId=2115%7CR1ZPW6AM4IQZ6Y&label=Helpful&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.1=1&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.2.type=ProductSet&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.2=1&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/104-5677716-5785512?ie=UTF8&type=if&uid=2115R1ZPW6AM4IQZ6YHelpfulReviews2&uri=%2Fgp%2Fproduct%2F0140165215&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.1.type=AmazonCustomer&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.1.id=A1RPTVW5VEOSI&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.2.id=1873&qv=1&contentId=2115%7CR1ZPW6AM4IQZ6Y&label=Helpful&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.1=1&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.2.type=ProductSet&2115%7CR1ZPW6AM4IQZ6Y.contentAssoc.2=1&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+Bernard's father is a disagreeable old man who is afraid of flying, but somehow, with the unexpected help of Bernard's scheming sister Tess, who is afraid of losing Ursula's fabled inheritance, he is convinced to go. Bernard lucks into a last-minute cancellation of a tourist package, getting the two of them a cheap flight, and more to the point of the book, allowing Lodge to portray a wide variety of English tourists, to a variety of comic effect. Some of the thematic center of the book is provided by an academic, an anthropologist of tourism, who has various cockeyed theories about the ritualistic place of tourism in human life, and who is much taken with the repeated motif of "Paradise" in the names of Hawaiian tourist traps. The other thematic center, of course, revolves around Bernard's own loss of faith, and the stories of his rigid Catholic upbringing, his seminary training, his years teaching, and his brief time as a parish priest.
+In Hawaii, Bernard's father is almost immediately run down by a car. So Bernard's time is taken up with dealing with his father's hospitalization, and then with Aunt Ursula's situation, partly in a shabby nursing house, partly in hospital. Bernard must deal with finding a place for Ursula to live out her short expected term, and this in the light of her rather more straitened than expected circumstances. Bernard also meets and falls in love with the woman who ran over his father, a woman in the process of divorcing her husband, who hates Hawaii, but who proves just the right woman for an ex-priest whose only sexual experience has consisted of humiliating failure. We also get glimpses of the other English tourists, these functioning mostly as pretty effective comic relief.
+2 of 5 people found the following review helpful:
+But things are never that simple in a Lodge book. Charles and his father have booked their passage via a discount tour group full of the sorts of broadly drawn caricatures that Lodge does so well. There's an Australian couple coming to meet their son's "special friend" that they assume is his finace', a professor specializing in the anthropology of travel (who is mistaken for a travel writer and given the full VIP treatment), and a family that must be every travel agent's nightmare, to mention a few.
+5 of 5 people found the following review helpful:
+I enjoyed this novel very much. It's both very funny, and quite serious at core. It's well-written, the characters are very well delineated, and their stories are involving and moving. The serious aspects -- the exploration of faith, and paradise, and, yes, tourism, are interesting and intelligent. The only quibbles I'd have would be the convenient resolution of some difficulties: some financial difficulties, and also the easy coincidence of Bernard's "meet cute" with an appropriate woman. But, to be sure, those are conventions of comedy, to some extent.
+ Comment | Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoCommunityResponse(uId,result,value) {
+    var msgLayer = getElement("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+      msgLayer.innerHTML = "Thanks for the valuable feedback you provided to other Amazon.com readers and reviewers. Your vote will be counted and will appear on the product page within 24 hours.";
+    } else {
+      showVoteErrorResponse(msgLayer,result,value);
+    }
+  }
+
+//-->
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-yes-tiny.gif' " +
+                 "id='" + uId + "_yes'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-no-tiny.gif' " +
+                 "id='" + uId + "_no'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame_'+uId);
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    if ( ''.length > 0 ) {
+        showLoadingMessageForYesNo(uId);
+    }
+
+    return false;
+}
+
+  function showLoadingMessageForYesNo(uid) {
+      var noBtn = document.getElementById(uid+'_no');
+      var yesBtn = document.getElementById(uid+'_yes');
+      var msgLayer = document.getElementById("thanks" + uid);
+
+      if( noBtn != null && yesBtn != null && msgLayer != null) {
+          noBtn.style.display = 'none';
+          yesBtn.style.display = 'none';
+          msgLayer.innerHTML = "";
+      }
+  }
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognized to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R19GUWSQL1P8VWHelpfulReviews1';
+var vyUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/104-5677716-5785512?ie=UTF8&2115%7CR19GUWSQL1P8VW.contentAssoc.2.id=1873&type=if&2115%7CR19GUWSQL1P8VW.contentAssoc.1.id=A35JTVM6A5T2VF&uid=2115R19GUWSQL1P8VWHelpfulReviews1&uri=%2Fgp%2Fproduct%2F0140165215&2115%7CR19GUWSQL1P8VW.contentAssoc.1=1&qv=1&contentId=2115%7CR19GUWSQL1P8VW&2115%7CR19GUWSQL1P8VW.contentAssoc.2=1&label=Helpful&2115%7CR19GUWSQL1P8VW.contentAssoc.2.type=ProductSet&qk=%2AVersion%2A&2115%7CR19GUWSQL1P8VW.contentAssoc.1.type=AmazonCustomer&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/104-5677716-5785512?ie=UTF8&2115%7CR19GUWSQL1P8VW.contentAssoc.2.id=1873&type=if&2115%7CR19GUWSQL1P8VW.contentAssoc.1.id=A35JTVM6A5T2VF&uid=2115R19GUWSQL1P8VWHelpfulReviews1&uri=%2Fgp%2Fproduct%2F0140165215&2115%7CR19GUWSQL1P8VW.contentAssoc.1=1&qv=1&contentId=2115%7CR19GUWSQL1P8VW&2115%7CR19GUWSQL1P8VW.contentAssoc.2=1&label=Helpful&2115%7CR19GUWSQL1P8VW.contentAssoc.2.type=ProductSet&qk=%2AVersion%2A&2115%7CR19GUWSQL1P8VW.contentAssoc.1.type=AmazonCustomer&ifRes=showYesNoCommunityResponse&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+Charles Armstrong has arrived with his aged father to visit his long estranged aunt, who married and American and shortly after the war. She's dying of cancer, and wants to see her brother one last time, in part to unburden herself of something terrible that happened between them when they were children. Charles knows nothing of this when he begins his trip, and assumes he'll be there for a week or two to help his aunt settle up.

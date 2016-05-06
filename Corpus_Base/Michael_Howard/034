@@ -1,0 +1,296 @@
+
+16 of 16 people found the following review helpful:
+Thus, while Howard's writing on the actual combat is vivid, it is in his appreciation of the fundamentally new Prussian way of war that he is most successful.  From the king, through the Bismarck and Moltke, and on down through the rest of the senior command, he paints a vivid portrait of Prussian ideals and ambition.  Conversely, he is equally successful at capturing the decrepitude and ineptness of a fragmented French government that lost the war in its opening days, and then prolonged it, to the never ending suffering of its soldiers, long after all hope was lost.  Likewise along these lines, Howard nicely illustrates the increasing conflict that inevitable comes between politicians and the military in an era of total war.
+It takes a broad brush to capture all of these elements, and in this book, Michael Howard has succeeded admirably.  He has taken an often overlooked conflict and placed it squarely at the crossroads of modern Europe, and a new, more terrible type of war.  For while the American Civil War (or even the Crimean War) is often referred to as the first modern war, it is in fact in the Franco-Prussian War that we see all the key elements of modern warfare: national mobilization, citizen soldiers under the guidance of a professional general staff, and the ascendancy of industrialization in both transport and new, more destructive, weapons.  At the same time, newer, more insidious developments in the form of guerrilla warfare and the targeting of civilians centers for strategic reasons first make their appearance on a large scale.
+Only occasionally does Howard divert his attention to the Prussian side, and when he does it is most often to discuss the friction generated between Moltke and Bismark or to describe the usually quick and effective Prussian reaction to halting or diffident French moves.  However, Howard seems to place no stock in the notion of a German genius for war.  For instance, he is quick to point out the many mistakes Moltke's army made, particularly in the early days of the conflict, and notes that more often than not the French troops gave just as good as they got in open battles with the Germans.
+Arising out of French objections to the Prussian selection of the Spanish monarch, this war, like many before and since, arose out of a complete lack of French appreciation for the changes that had overtaken the battlefield.  While the French had relied on a small, professional army, the Prussians had adopted a model of mandatory service that allowed them to raise massive, reasonably competent forces with unprecedented speed.  Thus, when hostilities broke out the French, who had assumed an easy victory, were caught on their heels and never regained the initiative.
+In many ways, the Franco-Prussian War marked the culmination of the dramatic military reforms begun by Scharnhorst after the disastrous defeat at the hands of Napoleon at the Battle of Jena in 1806.  Prussian improvements in military recruitment, training and organization, and most notably the development of a General Staff responsible for managing the immense requirements of modern war were all brought to bear on the French and in many accounts is credited with the stunning victory.  Howard recognizes the revolutionary implications of the railroad, telegraph and rifled weaponry, and also notes the decisive influence Prussian military planning and organization had in the conflict.  Indeed, he notes that the war was a watershed event in military history.  On the one hand, the conflict included perhaps the last successful cavalry charge in history, as well as the final employment of Vauban's time-honored siegecraft techniques developed in the 17th century.  Yet, the war also held some harbingers of future warfare, such as the deliberate bombardment of civilian populations at Strasburg and Paris in an attempt to undermine civilian morale and storm troop tactics developed to minimize casualties in attacking positions defended by troops with rapid firing rifled weaponry.  Nevertheless, in the final analysis, Howard seems to credit the French more with defeat than the Prussians with victory.
+However, these are minor complaints about an otherwise eminently successful work.  Howard has packed a tremendous amount of research into a readable and digestible volume.  His appreciation of the politics and personalities is matched only by his understanding of the weapons of war and the nature of combat.  Not only is this a successful history of the Franco-Prussian war, but also a model of what good history writing should be: balanced, well researched, and above all, readable.  Finally, Howard's success elevates the Franco-Prussian War to its rightful significance as one of the root causes of the tensions that led to WWI, and hence, to WWII.  Thus the student of history should appreciate this work not just for its success in considering immediate events, but for providing a bridge from the Great Power politics of the nineteenth century to the wars of the twentieth.
+Thus from the summer of 1870 through the depths of winter and into 1871, the story of the Franco-Prussian War is the story of the courage of the French soldier being failed utterly by inept leadership.  It wasn't in the strength of Prussian arms, or in the courage of its soldiers that the war was won; rather, it was in the ability of the centralized Prussian command structure to adapt rapidly to events when their French counterparts were still in the dark that victory was secured.
+First published in 1961-and representing Howard's debut as a military historian - his history of the stunning Prussian victory over the heavily favored French has stood the test of time and rightfully confirmed his place as one of the preeminent historians of war in the twentieth century.
+Jake Mohlman
+ Comment | Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoCommunityResponse(uId,result,value) {
+    var msgLayer = getElement("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+      msgLayer.innerHTML = "Thanks for the valuable feedback you provided to other Amazon.com readers and reviewers. Your vote will be counted and will appear on the product page within 24 hours.";
+    } else {
+      showVoteErrorResponse(msgLayer,result,value);
+    }
+  }
+
+//-->
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-yes-tiny.gif' " +
+                 "id='" + uId + "_yes'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-no-tiny.gif' " +
+                 "id='" + uId + "_no'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame_'+uId);
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    if ( ''.length > 0 ) {
+        showLoadingMessageForYesNo(uId);
+    }
+
+    return false;
+}
+
+  function showLoadingMessageForYesNo(uid) {
+      var noBtn = document.getElementById(uid+'_no');
+      var yesBtn = document.getElementById(uid+'_yes');
+      var msgLayer = document.getElementById("thanks" + uid);
+
+      if( noBtn != null && yesBtn != null && msgLayer != null) {
+          noBtn.style.display = 'none';
+          yesBtn.style.display = 'none';
+          msgLayer.innerHTML = "";
+      }
+  }
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognized to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R1CS9365DONNVVHelpfulReviews1';
+var vyUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/103-2775338-6785400?ie=UTF8&2115%7CR1CS9365DONNVV.contentAssoc.1=1&2115%7CR1CS9365DONNVV.contentAssoc.1.id=APRU373UYVK2Y&type=if&uid=2115R1CS9365DONNVVHelpfulReviews1&uri=%2Fgp%2Fproduct%2F0415266718&2115%7CR1CS9365DONNVV.contentAssoc.2.id=1135668&qv=1&contentId=2115%7CR1CS9365DONNVV&label=Helpful&qk=%2AVersion%2A&2115%7CR1CS9365DONNVV.contentAssoc.2.type=ProductSet&2115%7CR1CS9365DONNVV.contentAssoc.2=1&ifRes=showYesNoCommunityResponse&context=Reviews&2115%7CR1CS9365DONNVV.contentAssoc.1.type=AmazonCustomer&needsSignIn=1';
+var vnUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/103-2775338-6785400?ie=UTF8&2115%7CR1CS9365DONNVV.contentAssoc.1=1&2115%7CR1CS9365DONNVV.contentAssoc.1.id=APRU373UYVK2Y&type=if&uid=2115R1CS9365DONNVVHelpfulReviews1&uri=%2Fgp%2Fproduct%2F0415266718&2115%7CR1CS9365DONNVV.contentAssoc.2.id=1135668&qv=1&contentId=2115%7CR1CS9365DONNVV&label=Helpful&qk=%2AVersion%2A&2115%7CR1CS9365DONNVV.contentAssoc.2.type=ProductSet&2115%7CR1CS9365DONNVV.contentAssoc.2=1&ifRes=showYesNoCommunityResponse&context=Reviews&2115%7CR1CS9365DONNVV.contentAssoc.1.type=AmazonCustomer&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->
+14 of 16 people found the following review helpful:
+Howard tells the story of the war primarily from the French perspective, and it is a stinging indictment of that country's political and military system at that time.  Disgraced French commanders such as Bazaine or Bourbaki are more pitied by Howard than criticized for their performance.  He argues that primary fault for the disasters that befell the French armies were more the product of a defective French military system that put such incompetent men in command of large armies, rather than the fault of the incompetent commanders themselves.
+That said, I do have a few minor complaints.  The first is that Howard almost never translates quotes from the original French or German, and while I was just barely able to muddle through with what I remember from high school and college, any one who hasn't been exposed to these languages would certainly be frustrated.  Secondly, as anyone familiar with European politics knows, nothing happens in a vacuum, and yet Howard spends precious little time discussing the implications of the conflict within the international system of the time.  Finally, while Howard offers many maps, they offer little to know information about troop positions and lines of march, which leaves the reader flipping back rather than digesting a detailed map at a glance.
+Finally, it should be noted there are a lack of adequate campaigns maps, which makes many portions of the book difficult to follow.
+ Comment | Was this review helpful to you? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+  function showYesNoDefaultMessage(uId){
+    document.write("<span class='tiny' style='color:#990000;margin-left:5px;' id='" + "thanks" + uId + "'></span>");
+  }
+
+  function restoreYesNoDefaultMessage(uId){
+    var msgLayer = document.getElementById("thanks" + uId);
+    msgLayer.innerHTML = "";
+  }
+
+  function showYesButton(vUrl, uId){
+
+    var yesImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-yes-tiny.gif' " +
+                 "id='" + uId + "_yes'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='Yes' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">";
+    document.write(yesImg);
+  }
+
+  function showNoButton(vUrl, uId){
+    var noImg = "<img src='http://ec1.images-amazon.com/images/G/01/nav2/dp/btn-no-tiny.gif' " +
+                 "id='" + uId + "_no'" +
+                 "hspace='2' " +
+                 "vspace='2' " +
+                 "align='absmiddle' " +
+                 "alt='No' " +
+		 "style='cursor:pointer;' " +
+                 "onclick='sendYesNoRating( " + '"' + vUrl + "&voteValue=-1" + '"' + "," + '"' + uId + '"' + " )'" +
+                 ">"; 
+    document.write(noImg);
+  }
+
+  function sendYesNoRating(vUrl,uId){
+    restoreYesNoDefaultMessage(uId);
+    var voteLayer = document.getElementById('YesNoVotingFrame_'+uId);
+
+    var ifDoc;
+    if ( voteLayer.contentDocument ) {
+      ifDoc = voteLayer.contentDocument;
+    } else if ( voteLayer.contentWindow ) {
+      ifDoc = voteLayer.contentWindow.document;
+    } else if ( voteLayer.document ) {
+      ifDoc = voteLayer.document;
+    }
+
+    if ( ifDoc ) {
+      ifDoc.location.replace(vUrl);
+    }
+    else {
+      voteLayer.src = vUrl;
+    }
+
+    if ( ''.length > 0 ) {
+        showLoadingMessageForYesNo(uId);
+    }
+
+    return false;
+}
+
+  function showLoadingMessageForYesNo(uid) {
+      var noBtn = document.getElementById(uid+'_no');
+      var yesBtn = document.getElementById(uid+'_yes');
+      var msgLayer = document.getElementById("thanks" + uid);
+
+      if( noBtn != null && yesBtn != null && msgLayer != null) {
+          noBtn.style.display = 'none';
+          yesBtn.style.display = 'none';
+          msgLayer.innerHTML = "";
+      }
+  }
+
+  function showYesNoResponse(uId,result,value) {
+    var msgLayer = document.getElementById("thanks" + uId);
+    if ( result == "SUCCESS" ) {
+	msgLayer.innerHTML = "Thank you for your feedback.";
+    } else {
+	showVoteErrorResponse(msgLayer,result,value, "");
+    }
+  }
+
+//-->
+
+
+<!--
+  function showVoteErrorResponse(msgLayer,result,value,errorStringOverride) {
+    msgLayer.style.color = '#990000';
+    
+    if(errorStringOverride != null && errorStringOverride != "") {
+      msgLayer.innerHTML = errorStringOverride;
+    }
+    else { 
+      if ( result == "BAD-VOTE" ) {
+        msgLayer.innerHTML = "There was a problem with your request.";
+        } else if ( result == "UNRECOGNIZED" ) {
+        msgLayer.innerHTML = "You must be recognized to vote.";
+      } else if ( result == "SERVICE-FAILURE" ) {
+        msgLayer.innerHTML = "There was an error processing your request. Please try again later.";
+      } else if ( result == "AUTHOR-VOTE" ) {
+        msgLayer.innerHTML = "We're sorry, you can't do that.";
+      }
+    }
+  }
+
+//-->
+
+
+
+<!--
+var uId = '2115R1JUEJQP9GQMN9HelpfulReviews2';
+var vyUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/103-2775338-6785400?ie=UTF8&2115%7CR1JUEJQP9GQMN9.contentAssoc.2=1&2115%7CR1JUEJQP9GQMN9.contentAssoc.2.type=ProductSet&type=if&uid=2115R1JUEJQP9GQMN9HelpfulReviews2&uri=%2Fgp%2Fproduct%2F0415266718&2115%7CR1JUEJQP9GQMN9.contentAssoc.2.id=1135668&2115%7CR1JUEJQP9GQMN9.contentAssoc.1.id=A1O96IRCAIDZRQ&qv=1&contentId=2115%7CR1JUEJQP9GQMN9&label=Helpful&2115%7CR1JUEJQP9GQMN9.contentAssoc.1=1&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&2115%7CR1JUEJQP9GQMN9.contentAssoc.1.type=AmazonCustomer&context=Reviews&needsSignIn=1';
+var vnUrl = 'http://www.amazon.com/gp/vote/ref=cm_r8n_yesno_submit/103-2775338-6785400?ie=UTF8&2115%7CR1JUEJQP9GQMN9.contentAssoc.2=1&2115%7CR1JUEJQP9GQMN9.contentAssoc.2.type=ProductSet&type=if&uid=2115R1JUEJQP9GQMN9HelpfulReviews2&uri=%2Fgp%2Fproduct%2F0415266718&2115%7CR1JUEJQP9GQMN9.contentAssoc.2.id=1135668&2115%7CR1JUEJQP9GQMN9.contentAssoc.1.id=A1O96IRCAIDZRQ&qv=1&contentId=2115%7CR1JUEJQP9GQMN9&label=Helpful&2115%7CR1JUEJQP9GQMN9.contentAssoc.1=1&qk=%2AVersion%2A&ifRes=showYesNoCommunityResponse&2115%7CR1JUEJQP9GQMN9.contentAssoc.1.type=AmazonCustomer&context=Reviews&needsSignIn=1';
+document.write('<nobr>');showYesButton(vyUrl,uId);
+showNoButton(vnUrl,uId);
+document.write('</nobr>');showYesNoDefaultMessage(uId);
+//-->

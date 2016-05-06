@@ -1,0 +1,362 @@
+
+In Sections 3.2 and 4.2 below we compare the abilities of the CIDOC CRM 
+
+        and MPEG-7 to describe museum multimedia, by describing this example using 
+
+        their domain-specific vocabularies.
+Domain-specific ontologies have been developed by 
+
+        two different ISO Working Groups to standardize the semantics associated 
+
+        with the description of museum objects (CIDOC Conceptual Reference Model) 
+
+        and the description of multimedia content (MPEG-7) - but no single ontology 
+
+        or metadata model exists for describing museum multimedia content. This 
+
+        paper describes an approach which combines the domain-specific aspects 
+
+        of MPEG-7 and CIDOC-CRM models into a single ontology for describing and 
+
+        managing multimedia in museums. The result is an extensible model which 
+
+        could lead to a common search interface and the open exchange, sharing 
+
+        and integration of heterogeneous multimedia resources distributed across 
+
+        cultural institutions.
+The relationships of the Segment types to other segment types and multimedia 
+
+        entities are dependent on the allowed types of decomposition. Multimedia 
+
+        resources can be segmented or decomposed into sub-segments through 4 types 
+
+        of decomposition:
+The metadata associated with multimedia resources can be classified into 
+
+        a number of different categories:
+A number of projects have developed or are developing metadata models 
+
+        for multimedia in museums (Gabriel, 2001; The TOKEN 2000) or for historical 
+
+        audiovisual collections (The ECHO). These projects are either developing 
+
+        their own application-specific data models and vocabularies, or choosing 
+
+        one of the existing standards (MPEG-7 or CIDOC/CRM). None have considered 
+
+        the approach of merging ontologies from the museum domain and the multimedia 
+
+        domain into a single ontology.
+Example 2
+Figure 1 - The CIDOC/CRM Class Hierarchy
+In addition, the potential to re-use multimedia content to create new 
+
+        intellectual property, has further accelerated the growth in the size 
+
+        and number of institutional multimedia databases. Existing multimedia 
+
+        objects are being combined and reused to generate complex, interactive 
+
+        multimedia, hypermedia, virtual reality displays and participatory exhibitions. 
+
+        This has led to a demand for systems and tools which can satisfy the more 
+
+        sophisticated requirements for storing, managing, searching, accessing, 
+
+        retrieving, sharing and tracking complex multimedia resources.
+
+The "CIDOC object-oriented Conceptual Reference Model" (CRM), 
+
+        was developed by the ICOM/CIDOC Documentation Standards Group to provide 
+
+        an 'ontology' for cultural heritage information. Its primary role is to 
+
+        serve as a basis for mediation of cultural heritage information and thereby 
+
+        provide the semantic 'glue' needed to enable wide area information exchange 
+
+        and the integration of heterogenous resources between cultural institutions.
+Initially MPEG-7 definitions (description schemes and descriptors) were 
+
+        expressed solely in XML Schema [9-11]. XML Schema proved ideal for expressing 
+
+        the syntax, structural, cardinality and datatyping constraints required 
+
+        by MPEG-7. However semantic interoperability is necessary to enable systems 
+
+        to exchange data (e.g., metadata descriptions), to understand the precise 
+
+        meaning of that data and to translate or integrate data across systems 
+
+        or from different metadata vocabularies. Hence it was recognized that 
+
+        there was a need to formally define the semantics of MPEG-7 terms; and 
+
+        to express these definitions in a machine understandable, interoperable 
+
+        language. RDF Schema (RDF Schema Spec 2000) was the obvious choice due 
+
+        to its ability to express semantics and semantic relationships through 
+
+        class and property hierarchies and its endorsement by the W3C's Semantic 
+
+        Web Activity (W3C). Consequently the Adhoc Group for MPEG-7 Semantic Interoperability 
+
+        was established and an MPEG-7 ontology was developed and expressed in 
+
+        RDF Schema and DAML+OIL extensions (Hunter Adding, Hunter An ROF 2001). 
+
+        The extensions provided by DAML+OIL (DAML+OIL) were necessary to satisfy 
+
+        certain requirements such as the need for multiple ranges and sub-class 
+
+        specific constraints. The basic class hierarchy of MPEG-7 content and 
+
+        segments is shown in Figure 2 below e.g., the MPEG-7 class VideoSegment 
+
+        is a subclass of both Video and Segment.
+Hence in the remainder of this paper we describe both the CIDOC/CRM and 
+
+        MPEG-7 metadata models. We then analyze them both to determine the overlaps, 
+
+        intersections and differences. Based on this analysis we hope to be able 
+
+        to determine how the models can best be merged to combine the two domain-specific 
+
+        vocabularies of MPEG-7 and CIDOC/CRM, without introducing semantic inconsistencies 
+
+        or redundancies. The final outcome is in essence, a single, machine-understandable, 
+
+        extensible ontology designed to support the description and management 
+
+        of multimedia resources within museums.
+Combining the CIDOC CRM and MPEG-7 to Describe Multimedia 
+
+        in Museums
+Audiovisual or "multimedia" content within museums is highly 
+
+        diverse and varies widely in origin, genre, purpose, media type, format, 
+
+        quality, age, context and the reason for its cultural significance or 
+
+        retention within a museum or collection. Multimedia in museums can include 
+
+        everything from disintegrating maps on paper to full feature films on 
+
+        DVD. Within the scope of this paper we are referring to: images, audio, 
+
+        video, multimedia, graphics and animation - in both analog and digital 
+
+        form. Table 1 below provides an overview of the typical constitution of 
+
+        multimedia collections within a museum
+MPEG-7 provides:
+The Moving Pictures Expert Group (MPEG), a working group of ISO/IEC, 
+
+        is expected to shortly release the final standard for MPEG-7 (MPEG-7 Overview), 
+
+        the "Multimedia Content Description Interface", a standard for 
+
+        describing multimedia content. The goal of this standard is to provide 
+
+        a rich set of standardized tools to enable both humans and machines to 
+
+        generate and understand audiovisual descriptions which can be used to 
+
+        enable fast efficient retrieval from digital archives (pull applications) 
+
+        as well as filtering of streamed audiovisual broadcasts on the Internet 
+
+        (push applications). MPEG-7 can describe audiovisual information regardless 
+
+        of storage, coding, display, transmission, medium, or technology. It addresses 
+
+        a wide variety of media types including still pictures, graphics, 3D models, 
+
+        audio, speech, video, and combinations of these (e.g., multimedia presentations).
+Associated with each of the subclasses in Figure 2 are various properties 
+
+        which define permitted relationships between the segment classes corresponding 
+
+        to specific structural or organizational description schemes and the permitted 
+
+        audio, visual and audiovisual attributes associated with different types 
+
+        of multimedia segments.
+Jane Hunter, DSTC Pty Ltd, University of Queensland, Australia
+Metadata standards enable interoperability between systems and organizations 
+
+        so that information can be exchanged and shared. Standardized metadata 
+
+        models have been developed to describe museum objects (CIDOC Conceptual 
+
+        Reference Model) (CIDOC Conceptual) and to describe multimedia content 
+
+        (MPEG-7) (ICS) but no standards currently exist for specifically describing 
+
+        museum multimedia content. Hence the key goal of this project is to analyze 
+
+        and evaluate each of these existing standards and to determine a way to 
+
+        merge the two ontologies to generate a standardized model for describing 
+
+        museum multimedia content. Such a model, which is capable of supporting 
+
+        the exchange of information between existing collection management systems 
+
+        (for physical artefacts) and emerging digital asset management systems 
+
+        would enable knowledge and resources to be shared, re-used and exchanged 
+
+        to a much greater extent than is currently possible both within and between 
+
+        museums.
+Abstract
+Hence in addition to the typical bibliographic information, the metadata 
+
+        for multimedia resources may need to describe detailed formatting information, 
+
+        structural or segmentation information (temporal, spatial and spatio-temporal 
+
+        segments), semantic information (description of the objects/people/places/events 
+
+        which are recorded) and the event history and rights information. A detailed 
+
+        description of the metadata requirements for multimedia in museums is 
+
+        provided in the next section.
+The CIDOC CRM is presented as an object-oriented extensible data model, 
+
+        expressed in RDF Schema (RDF Schema Spec 2000). Figure 1 illustrates the 
+
+        class hierarchy for the CIDOC CRM, as generated by the SIS knowledge base 
+
+        (ICS). The detailed specification of the CIDOC CRM Version 3.2 which includes 
+
+        detailed descriptions of the class and property definitions, hierarchies 
+
+        and relationships, is available from (Crofts, 2002).
+Together with an analysis of the class and property hierarchies provided 
+
+        by the CIDOC CRM, this exercise reveals that the CIDOC CRM's strengths 
+
+        lie in its ability to describe:
+Keywords: Multimedia, Metadata, Interoperability, 
+
+        MPEG-7, CIDOC-CRM
+Example 1
+The CIDOC CRM provides the is_documented_in property to record 
+
+        the relationship of a culturally significant physical or real-world artefact 
+
+        or event to its visual/audio/audiovisual recording, which is classed as 
+
+        a Document. However there is no explicit support for the different 
+
+        media types in CIDOC/CRM. Because the CIDOC CRM is designed to provide 
+
+        an extensible underlying framework, it may be possible to improve support 
+
+        for multimedia descriptions, through the addition of MPEG-7 multimedia-specific 
+
+        sub-classes and sub-properties to existing CIDOC/CRM superclasses and 
+
+        super-properties. We investigate this approach in Section 5.
+Table 1: Overview of Museum Multimedia Types
+
+Figure 2 - MPEG-7 Multimedia Segment Class Hierarchy
+In order to understand and evaluate the CIDOC CRM's ability to describe 
+
+        multimedia resources, we apply it to the example in Section 2.3.
+Multimedia provides museums with a rich paradigm for capturing, communicating 
+
+        and preserving cultural information. It offers new capabilities for structuring, 
+
+        interpreting and communicating knowledge, and the significance of artifacts 
+
+        within museum collections through the use of digital video, audio, images, 
+
+        graphics and animation. Making collections available in digital form, 
+
+        both in-house and through networks, provides museums with a tremendous 
+
+        opportunity to meet their educational mandate. When linked together over 
+
+        networks, museum multimedia databases become even more valuable as cross-cultural 
+
+        resources for educational and research purposes.
+Table 2: Typical Format Metadata for Different Media Types
+Often multimedia content has been generated for preservation and dissemination 
+
+        purposes. The multimedia resource may be a digital surrogate of the original 
+
+        culturally significant museum artifact which is too valuable or fragile 
+
+        to be handled or is inaccessible for reasons of location. In many situations, 
+
+        the multimedia resources are created as an alternative visual representation 
+
+        (image, model) of a physical museum artifact or as a replacement for earlier 
+
+        analog and digital formats which are becoming obsolescent.
+Metadata is the value-added information which documents the administrative, 
+
+        descriptive, preservation, technical and usage history and characteristics 
+
+        associated with resources. It provides the underlying foundation upon 
+
+        which digital asset management systems rely to provide fast, precise access 
+
+        to relevant resources across networks and between organisations. The metadata 
+
+        associated with multimedia objects is infinitely more complex than simple 
+
+        metadata for resource discovery of simple atomic textual documents and 
+
+        the problems and costs asssociated with generating such metadata are correspondingly 
+
+        magnified.
+Consider the following example which is typical of multimedia content 
+
+        held by museums or archives: a film owned by the Museum of Victoria which 
+
+        contains unedited footage of Australian Aboriginal tribal ceremonies filmed 
+
+        by anthropologist Baldwin Spencer between 1901 and 1912. Below is the 
+
+        catalogue item from ScreenSound Australia's online catalogue. In 1999, 
+
+        the original film was copied to digital format (MPEG-1) by the National 
+
+        Film and Sound Archive for the purpose of preservation.
+In most cases, it is the semantic content, which is depicted or recorded 
+
+        on the multimedia resource which is of value i.e., the resource records 
+
+        an event, place, person, object or concept which is of cultural, historical, 
+
+        geographic or educational importance. For some multimedia resources, the 
+
+        cultural or historical significance lies with the medium or recording 
+
+        technology e.g., the earliest photographs, film, video and audio recordings. 
+
+        In some cases, the multimedia object is valuable because of the person 
+
+        who captured or recorded it (e.g., home movie collection of John F. Kennedy) 
+
+        or because it is part of a larger collection or bequest or it is exemplary 
+
+        of a particular genre, era or technique. In many cases, both the semantic 
+
+        content and the context, agents, technique and medium are all of importance 
+
+        and need to be
+This paper describes a proposal for an interoperable 
+
+        metadata model, based on international standards, which has been designed 
+
+        to enable the description, exchange and sharing of multimedia resources 
+
+        both within and between cultural institutions.
